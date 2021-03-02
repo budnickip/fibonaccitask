@@ -1,0 +1,32 @@
+.app{
+    width: 80%;
+    height: 80vh;
+    background-color: white;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    padding: 2em;
+    overflow: scroll;
+    display: flex;
+    flex-direction: column;
+}
+
+.app__button{
+    border: 1px solid var(--ornaments, orange);
+    border-radius: 15px;
+    padding: 14px 28px 14px 28px;
+    width: 200px;
+    background-color: white;
+    color: var(--ornaments, orange);
+    margin: 10px 20px;
+    cursor: pointer;
+    transition-property: background-color, color, font-weight;
+    transition-duration: .5s;
+    align-self: center;
+}
+
+.app__button:hover{
+    background-color:var(--ornaments, orange);
+    color: white;
+    font-weight: 700;
+}
