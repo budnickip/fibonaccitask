@@ -6,6 +6,8 @@ const drawSquares = () =>{
         let newDiv;
         let size;
         const resultDiv = document.querySelector('.fibonacci-result')
+        const app = document.querySelector('.app')
+        app.style.overflow = 'scroll';
         for(let i = 1; i <= 20; i++){
             size = fibonacci(i)
             newDiv = document.createElement('div')
