@@ -1,6 +1,6 @@
 1. Przeglądarka
 
-live:
+live: https://budnickip.github.io/fibonaccitask/
 
 
 Zadanie polega na napisaniu skryptu w JavaScript który po kliknięciu w przycisk wygeneruje
