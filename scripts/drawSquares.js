@@ -1,7 +1,7 @@
 import fibonacci from './fibonacci.js'
 
 const drawSquares = () =>{
-    const btn = document.querySelector('.app__button')
+    const btn = document.querySelector('.description__button')
     btn.addEventListener('click', (event)=>{
         let newDiv;
         let size;
